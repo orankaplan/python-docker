@@ -19,7 +19,7 @@ RUN apt-get update -y \
     wget ssh nano iputils-ping \
     python2.7 python2.7-dev \
     mysql-client python-mysqldb libmysqlclient-dev ca-certificates libpq-dev build-essential \
-    libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev sqlite postgresql \
+    libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev sqlite3 libsqlite3-dev postgresql \
     locales libxmlsec1 libxmlsec1-dev language-pack-en-base libffi-dev libxml2-dev libxslt1-dev \
     python-pip python-setuptools \
     --no-install-recommends
